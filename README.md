@@ -5,3 +5,14 @@ DATATYPE CHART
 
 
 In above image we learn the Type of DataType in Js
+
+------------------------------------------------------------------------
+
+For string we use this to type inside string 
+![alt text](image-1.png)
+here
+
+-----------------------------------------------------------------------
+for formating text
+
+![alt text](image-2.png)
