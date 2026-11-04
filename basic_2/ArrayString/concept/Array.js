@@ -80,3 +80,68 @@ console.log(students.sort());
 
 //how to find which type of variable is it 
 console.log(typeof array) // array is a object 
+
+//-----------------------------------------------------------------------------
+// some popular method of array
+//
+
+let name1=["vivek","Kailas","Thorat"]
+console.log(name1.join("-"))     // gives - sign in between
+//console.log(name1.join("/"))
+console.log(name1)
+name1.push("hii")
+console.log(name1)
+name1.pop();
+console.log(name1)
+
+let cart = [10, 20, 30];
+console.log(arr.shift()); 
+console.log(arr);
+
+let Aarr = [20, 30];
+arr.unshift(10);
+console.log(arr);
+
+let a = [1, 2], b = [3, 4];
+console.log(b.concat(a));   // joins two array
+
+let arr23 = [10, 20, 30, 40];
+console.log(arr23.slice(0, 4));   //slice(start  index , stop on index) 
+
+let arrw = [10, 20, 30];
+arrw.splice(1, 0, 25); // splice(index to target , deleted element 0 , 1,..etc(not index), element value to insert)
+console.log(arrw);
+
+let txt = [1, [2, [3, 4]]];     // nested array
+console.log(txt.flat(1));       // remove  first layer 
+console.log(txt.flat(2));       // remove 2 layer of nested array
+
+let ar = [1, 2, 3];
+console.log(ar.flatMap(x => [x, x * 2]));   
+
+let arr1212 = [10, 20, 30];
+console.log(arr1212.includes(20));
+
+let AA1= [10, 20, 30, 40];
+console.log(AA1.find(x =>x> 20));   // first x =0 th index & second x = 1th index
+
+// checks 10: Is 10 > 20 No 
+// checks 20: Is 20 > 20 No 
+// checks 30: Is 30 > 20 Yes
+
+let vt = [10, 20, 30, 40];
+console.log(vt.findIndex(x => x > 20));   // use to find index of element value
+
+
+vt.fill(0, 1, 3);  //.fil(value ,start , end)
+console.log(vt);
+
+let vtt = [10, 20, 30, 40];
+
+let vivek = vtt.reverse();
+console.log(vivek)
+   
+
+delete vivek[2]
+console.log(vivek)
+
