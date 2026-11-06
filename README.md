@@ -1,4 +1,39 @@
     This is my journey of starting JavaScript from basic to building a huge project
+    in this journey i am going to do all thing step by step 
+    here is my roadmap 
+     javascript   --------------------------------
+         |                                        |
+        JSON                                      |
+         |                                        |
+     TypeScript                                   |--------->> JavaScript
+         |                                        |
+        Vue.js                                    | 
+         |                                        |
+       Jquery ------------------------------------                      
+         |
+         |
+       React.js------------------------------------
+         |                                         |
+        Node.js                                    |------>> FRONTEND WITH CSS AND HTML 
+         |                                         |
+      Angular  ------------------------------------
+         | 
+         |                                        
+       Node.js ------------------------------------
+         |                                         |
+    Express.js                                     |
+         |                                         |--------->>BACKEND 
+        PHP                                        |
+         |                                         |
+       Django--------------------------------------
+         |
+      MongoDB--------------------------------------
+         |                                         |                         
+        Redis                                      |----------->> DATABASE
+         |                                         |
+        SQL ---------------------------------------
+         |
+        E N D          
 
     DATATYPE CHART
     ![alt text](image.png)
@@ -62,3 +97,29 @@
 ![alt text](image-4.png)
 
 ---------------------------------------------------------------------
+
+#why to use function 
+
+![alt text](image-5.png)
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+#structure of function 
+
+![alt text](image-6.png)
+
+
+-------------------------------------------------------------------------------
+
+#function expression and Declaration
+
+![alt text](image-7.png)
+
+-------------------------------------------------------------------------------
+#object  between and new object 
+![alt text](image-8.png)
+
+
+-Difference between Map and Object
+![alt text](image-9.png)
+
+----------------------------------------------------------------------------
