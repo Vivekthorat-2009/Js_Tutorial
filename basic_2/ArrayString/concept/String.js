@@ -9,12 +9,28 @@ console.log(text,text1,text2)
 //using new constructor
 let s =new String("abcdefgh")
 console.log(s)
-
+//----------------------------------------------------------
+// template literal 
 let s1 = 'gfg';
-let s2 = `You are learning ${s1}`; // use for dynamic creation
-
+let s2 = `You are learning ${s1}`; 
 console.log(s2);
+let tv={
+    tv_name:"Lg",
+    tv_size:"43inch",
+    tv_price:22200
+}
+console.log("tv name =",tv.tv_name,"size",tv.tv_size,"price",tv.tv_price);
+//this above look complex so we use template literal
+let outp =(`tv name is v ${tv.tv_name} size is ${tv.tv_size} and price is ${tv.tv_price}`)
+console.log(outp)
 
+
+
+
+
+
+
+//----------------------------------------------
 let txt = "Hello how are  you 'vt' ";
 console.log(txt.length)
 
@@ -52,3 +68,15 @@ let st2 = new String("Ajay");
 console.log(st1 == st2);  // true (type coercion)
 console.log(st1 === st2); // false (strict comparison)
 console.log(st1.localeCompare(st2)); // 0 (means they are same equal
+
+// Define a string variable 
+let A = 'Geeks for Geeks';
+
+// Use the slice() method to extract a substring
+let b = A.slice(0, 5);  //.slice(start ,end )
+let c = A.slice(6, 9);
+let d = A.slice(10);    //.slice (start . no parameter so take till end automatically)
+console.log(b);
+console.log(c);
+console.log(d);
+
