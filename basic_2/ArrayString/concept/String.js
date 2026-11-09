@@ -58,7 +58,7 @@ console.log(i);  //find index of element including white space
 //let str1 = 'vivek , thorat , good coder';
 let rt = str1.replace(/good coder/g ,'bad coder')   // replace string by /g tag
 console.log(rt)
-
+    
 let tr =rt.trim();
 console.log(tr);
 
@@ -69,8 +69,8 @@ console.log(st1 == st2);  // true (type coercion)
 console.log(st1 === st2); // false (strict comparison)
 console.log(st1.localeCompare(st2)); // 0 (means they are same equal
 
-// Define a string variable 
-let A = 'Geeks for Geeks';
+
+let A = 'vivek thorat';
 
 // Use the slice() method to extract a substring
 let b = A.slice(0, 5);  //.slice(start ,end )
