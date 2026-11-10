@@ -114,6 +114,8 @@
 
 ![alt text](image-7.png)
 
+
+<h1>important that function callback(foreach) is <ins>higher order function (hof)</ins> which take parameter as other funct or return value<h1/> 
 -------------------------------------------------------------------------------
 #object  between and new object 
 ![alt text](image-8.png)
@@ -121,5 +123,18 @@
 
 -Difference between Map and Object
 ![alt text](image-9.png)
-
+------------------------------------------------------------------------------
+<h1>OOP</h1>
+<h2>CHARACTERISTIC OF OOP</h2>
+![alt text](image-10.png)
 ----------------------------------------------------------------------------
+<h2>Class Object example</h2>
+![alt text](image-11.png)
+--------------------------------------------------------------------
+<h2>Abstraction</h2>
+![alt text](image-12.png)
+----------------------------------------------------------------------
+
+<h2>Encapsulation</h2>
+![alt text](image-13.png)
+------------------------------------------------------------------------
