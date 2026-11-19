@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Document Metadata & External Resources -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A complete HTML page covering the most common tags.">
+  <title>Complete html tag used in This</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+    header, nav, main, section, article, aside, footer { margin-bottom: 20px; padding: 10px; border: 1px solid #ddd; }
+    table, th, td { border: 1px solid #333; border-collapse: collapse; padding: 8px; }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <h1>JS(H1)</h1>
+    <nav>
+      <a href="#text">Text TAG</a> |
+      <a href="#lists">Lists TAG</a> |
+      <a href="#media">Media TAG</a> |
+      <a href="#tables">Tables TAG</a> |
+      <a href="#forms">Forms TAG</a>
+    </nav>
+  </header>
+
+  
+  <main>
+
+    
+    <section id="text">
+      <h2>1. Headings & Text Formatting (H2)</h2>
+      <h3>Subheading Level 3 (H3)</h3>
+      <h4>Subheading Level 4 (H4)</h4>
+      <h5>Subheading Level 5 (H5)</h5>
+      <h6>Subheading Level 6 (H6)</h6>
+
+      <p>
+        This is a standard paragraph. You can make text <strong>important (bold)</strong>, 
+        <em>(italic)</em>, <u>underlined</u>, <mark>highlighted</mark>, 
+        <small>small</small>, or <del>deleted</del>.
+      </p>
+      <p>
+        Use <code>&lt;code&gt;</code> for inline code, H<sub>2</sub>O for subscript, 
+        and E = mc<sup>2</sup> for superscript.
+      </p>
+      <blockquote>
+        "This is a blockquote, typically used for longer quotes from external sources."
+      </blockquote>
+      <p>
+        Line breaks use the br tag:<br>Like this. Horizontal rules separate content:
+      </p>
+      <hr>
+      <div>
+        A <strong>div</strong> is a block-level container, while a 
+        <span style="color: blue;">span</span> is an inline container.
+      </div>
+    </section>
+
+    
+    <section id="lists">
+      <h2>2. Lists</h2>
+      
+      <h3>Unordered List (Bullets)</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+
+      <h3>Ordered List (Numbered)</h3>
+      <ol>
+        <li>Plan structure</li>
+        <li>Write HTML</li>
+        <li>Style with CSS</li>
+      </ol>
+
+      <h3>Description List</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+      </dl>
+    </section>
+
+    
+    <section id="media">
+      <h2>3. Links & Media</h2>
+      <p>
+        Visit <a href="https://mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a> 
+        (opens in a new tab).
+      </p>
+
+      
+      <figure>
+        <img src="https://placeholder.com" alt="Placeholder image description" width="300" height="150">
+        <figcaption>Figure caption describing the image above.</figcaption>
+      </figure>
+
+      
+      <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <br><br>
+      <video width="320" height="240" controls>
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      
+      <p>Embedded frame example:</p>
+      <iframe src="https://example.com" title="Example Iframe" width="300" height="150"></iframe>
+    </section>
+
+    
+    <section id="tables">
+      <h2>4. Tables</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Tag</th>
+            <th>Category</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;p&gt;</td>
+            <td>Text</td>
+            <td>Defines a paragraph</td>
+          </tr>
+          <tr>
+            <td>&lt;a&gt;</td>
+            <td>Links</td>
+            <td>Creates a hyperlink</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    
+    <section id="forms">
+      <h2>5. Forms & User Input</h2>
+      <form action="/submit" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <p>Choose a role:</p>
+        <input type="radio" id="dev" name="role" value="developer">
+        <label for="dev">Developer</label>
+        <input type="radio" id="designer" name="role" value="designer">
+        <label for="designer">Designer</label><br><br>
+
+        <input type="checkbox" id="subscribe" name="subscribe" checked>
+        <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+          <option value="in">India</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+        </select><br><br>
+
+        <label for="bio">Message:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Write something..."></textarea><br><br>
+
+        <button type="submit">Submit Form</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+
+    
+    <aside>
+      <h3>Sidebar (Aside)</h3>
+      <p>Used for tangential content like related links or ads.</p>
+    </aside>
+
+  </main>
+
+  <!-- Page Footer -->
+  <footer>
+    <p>&copy; 2026 My Website. All rights reserved.</p>
+  </footer>
+
+
+  <script>
+    console.log("HTML page loaded successfully.");
+  </script>
+
+</body>
+</html>
